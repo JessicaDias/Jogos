@@ -1,0 +1,34 @@
+fase: 2
+inicio
+funcao meiaVolta(){
+    repetir(2) {
+        virar()
+    }
+}
+magia destruccio
+destruccio = ataque
+usar(destruccio)
+repetir(2){
+    andar()
+}
+meiaVolta()
+aguamenti = agua
+usar(aguamenti)
+meiaVolta()
+usar(aguamenti)
+andar()
+magia flagrati
+usar(flagrati)
+repetir(3){
+    andar()
+}
+virar()
+repetir(2){
+    andar()
+}
+fim
+
+# [ERROR] Line 15 : Variable aguamenti not defined
+[ERROR] Line 16 : Magic aguamenti not defined
+[ERROR] Line 18 : Magic aguamenti not defined
+[ERROR] Line 20 : Magic destruccio already defined #

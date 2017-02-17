@@ -1,0 +1,9 @@
+Para compilar uma alteração na gramática codeFun.g4
+
+No terminal, abra a pasta t3:
+Ex: Compiladores2/T3/src/t3
+
+Execute o comando:
+
+java -jar antlr-4.5.3-complete\ .jar -package t3 codeFun.g4
+

@@ -1,0 +1,14 @@
+fase: 3
+inicio
+magia kadabra
+perguntar (frente == fogo?){ kadabra = agua }
+perguntar (frente == arvore?){ kadabra = ataque }
+perguntar (frente == caixa?){ kadabra = fogo }
+usar(kadabra)
+repetir(4){
+    andar()
+}
+fim
+
+# [ERROR] Line 4: syntax error near fogo
+Não existe o próximo bloco "fogo" tipo_bloco #

@@ -1,0 +1,18 @@
+fase: 1
+inicio
+funcao esquerda(){
+	virar()
+	virar()
+	virar()
+}
+magia alakasam
+alakasam = fogos
+esquerda()
+usar(alakasam)
+andar()
+alakasam = agua
+usar(alakasam)
+andar()
+virar()
+andar()
+fim

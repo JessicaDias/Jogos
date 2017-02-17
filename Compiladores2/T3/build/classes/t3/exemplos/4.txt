@@ -1,0 +1,20 @@
+fase: 1
+inicio
+virar()
+virar()
+virar()
+magia alakasam
+alakasam = fogo
+usar(alakasam)
+virar()
+andar()
+virar()
+virar()
+virar()
+alakasam = agua
+usar(alakasam)
+andar()
+alakasam = ataque
+usar(alakasam)
+andar()
+fim

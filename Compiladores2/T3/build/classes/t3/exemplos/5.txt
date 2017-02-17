@@ -1,0 +1,18 @@
+fase: 1
+inicio
+funcao esquerda(){
+	virar()
+	virar()
+	virar()
+}
+
+repetir(4){
+andar()
+}
+virar()
+andar()
+esquerda()
+repetir(2){
+andar()
+}
+fim

@@ -1,0 +1,20 @@
+fase: 1
+
+funcao esquerda(){
+    repetir(3){
+        virar()
+    }
+}
+    repetir(4){
+        andar()
+    }
+    virar()
+    andar()
+    esquerda()
+    repetir(2){
+        andar()
+    }
+fim
+
+
+# [ERROR] Line 3: syntax error near funcao #

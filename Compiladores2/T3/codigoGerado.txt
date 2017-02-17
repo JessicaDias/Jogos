@@ -1,0 +1,23 @@
+#fase: 4
+
+player.virar()
+
+for i in range(4): 
+     player.andar()
+
+player.virar()
+
+for i in range(3): 
+     player.andar()
+
+for i in range(3): 
+     player.virar()
+
+for i in range(3): 
+     player.andar()
+water= ''
+water='agua'
+
+player.usar(water)
+
+player.andar()

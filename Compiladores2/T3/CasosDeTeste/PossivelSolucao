@@ -1,0 +1,116 @@
+Solução Fase 1
+
+fase: 1
+inicio
+funcao esquerda(){
+    repetir(3){
+        virar()
+    }
+}
+    repetir(4){
+        andar()
+    }
+    virar()
+    andar()
+    esquerda()
+    repetir(2){
+        andar()
+    }
+fim
+
+Solução Fase 2
+
+fase: 2
+inicio
+funcao meiaVolta(){
+    repetir(2) {
+        virar()
+    }
+}
+magia destruccio
+destruccio = ataque
+usar(destruccio)
+repetir(2){
+    andar()
+}
+meiaVolta()
+magia aguamenti
+aguamenti = agua
+usar(aguamenti)
+meiaVolta()
+usar(aguamenti)
+andar()
+magia flagrati
+flagrati = fogo
+usar(flagrati)
+repetir(3){
+    andar()
+}
+virar()
+repetir(2){
+    andar()
+}
+fim
+
+Solução Fase 3
+
+fase: 3
+inicio
+funcao magic(){
+magia kadabra
+perguntar (frente == fogueira?){ kadabra = agua }
+perguntar (frente == arvore?){ kadabra = ataque }
+perguntar (frente == caixa?){ kadabra = fogo }
+usar(kadabra)
+}
+repetir(4){
+    magic()
+    andar()
+}
+fim
+
+Solução Fase 4
+
+fase: 4
+inicio
+funcao esquerda(){
+	repetir(3){ virar() }
+}
+funcao bingbing(){
+	repetir(4){ virar() }
+}
+virar()
+andar()
+esquerda()
+andar()
+repetir(2){ virar() }
+magia aguamenti
+aguamenti = agua
+usar(aguamenti)
+andar()
+esquerda()
+andar()
+virar()
+repetir(2){ andar() }
+virar()
+repetir(2){ andar() }
+virar()
+andar()
+repetir(2){ virar() }
+repetir(3){ andar() }
+esquerda()
+repetir(2){ andar() }
+usar(aguamenti)
+repetir(30){
+	bingbing()
+	perguntar(frente == fogueira?){
+		usar(aguamenti)
+	}
+}
+repetir(8){
+	andar()
+	perguntar(frente == fogueira?){
+		usar(aguamenti)
+	}
+}
+fim

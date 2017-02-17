@@ -1,0 +1,11 @@
+java -jar "dist/T3.jar" CAMINHO_SEU_CODIGO/NOME_AQRUIVO
+
+ex: 
+seu codigo
+java -jar "dist/T3.jar" codigo.txt
+
+erros semanticos de 1 a 6
+java -jar "dist/T3.jar" CasosDeTeste/ErroSemantico/1.txt
+
+erros sintaticos de 1 a 18
+java -jar "dist/T3.jar" CasosDeTeste/ErroSintatico/1.txt

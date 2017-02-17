@@ -1,0 +1,14 @@
+fase: 1
+inicio
+    repetir(4){
+        andar()
+    }
+    virar()
+    andar()
+    esquerda()
+    repetir(2){
+        andar()
+    }
+fim
+
+# [ERROR] Line 7 : Function esquerda not defined #

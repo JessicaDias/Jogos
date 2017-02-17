@@ -1,0 +1,34 @@
+fase: 2
+inicio
+funcao meiaVolta(){
+    repetir(2) {
+        virar()
+    }
+}
+magia meiaVolta
+meiaVolta = ataque
+usar(meiaVolta)
+repetir(2){
+    andar()
+}
+meiaVolta()
+magia aguamenti
+aguamenti = agua
+usar(aguamenti)
+meiaVolta()
+usar(aguamenti)
+andar()
+magia flagrati
+flagrati = fogo
+usar(flagrati)
+repetir(3) {
+    andar()
+}
+virar()
+repetir(2){
+    andar()
+}
+fim
+
+# [ERROR] Line 8 : Magic meiaVolta already defined
+[ERROR] Line 21 : Magic destruccio not defined #

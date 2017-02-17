@@ -1,0 +1,21 @@
+fase: 13
+inicio
+funcao esquerda(){
+    repetir(3){
+        virar()
+    }
+}
+    repetir(4){
+        andar()
+    }
+    virar()
+    andar()
+    esquerda()
+    repetir(2){
+        andar()
+    }
+fim
+
+# [ERROR] Level 13 doesn't exist
+Set a value between 1 to 5
+Erro nível inválido #

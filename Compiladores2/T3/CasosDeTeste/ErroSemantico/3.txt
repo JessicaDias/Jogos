@@ -1,0 +1,37 @@
+fase: 2
+inicio
+funcao meiaVolta(){
+    repetir(2) {
+        virar()
+    }
+}
+magia destruccio
+destrucio = ataque
+usar(destruccio)
+repetir(2){
+    andar()
+}
+usar(alohomora)
+meiaVolta()
+magia aguamenti
+aguamenti = agua
+usar(aguamenti)
+meiaVolta()
+usar(aguamenti)
+andar()
+magia flagrati
+flagrati = fogo
+usar(flagrati)
+repetir(3){
+    andar()
+}
+virar()
+repetir(2){
+    andar()
+}
+fim
+
+# [ERROR] Line 9 : Variable destrucio not defined
+[ERROR] Line 10 : Magic destruccio has no type
+[ERROR] Line 14 : Magic alohomora not defined
+[ERROR] Line 22 : Magic destruccio has no type #

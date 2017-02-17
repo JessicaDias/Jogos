@@ -1,0 +1,19 @@
+fase: 1
+inicio
+funcao esquerda(){
+    repetir(3){
+        virar()
+    }
+}
+    repetir(4){
+        andar()
+    }
+    virar()
+    andar()
+    esquerda(
+    repetir(2){
+        andar()
+    }
+fim
+
+# [ERROR] Line 13: syntax error near esquerda( #
