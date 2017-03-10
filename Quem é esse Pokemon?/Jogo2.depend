@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1373860654 source:c:\users\programação\desktop\jogo\jogo2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<allegro.h>
+	<time.h>
+	<string.h>
+
+1373587027 source:c:\users\programação\downloads\mainjogo.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+
+1373914762 source:c:\users\programação\desktop\jogo\quem é esse pokemon\main.c
+	<stdio.h>
+	<stdlib.h>
+	<allegro.h>
+	<time.h>
+	<string.h>
+
